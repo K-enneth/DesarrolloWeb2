@@ -1,77 +1,72 @@
 let objeto = {
-    nombre: "Karina",
-    esGay: true,
-    edad: 23,
+    nombre: "Kenneth",
+    leGustaJojos: true,
+    edad: 20,
     libros: [{
-         nombre: "Tokio Blues",
-         autorap: "Murakami",
-         autornom: "Haruki",
-         anio_de_publi: "1987",
-         editorial: "TusQuets",
+        nombre: "The Raven Boys",
+        autorapellido: "Stiefvater",
+        autornombre: "Maggie",
+        anio_de_publi: "2013",
+        editorial: "Schoolastic Corporation",
     },
-       {
-        nombre: "El Perfume",
-        autorap: "Süskind",
-         autornom: "Patrick",
-         anio_de_publi: "1985",
-         editorial: "SeixBarral",
-       },
-       {
-        nombre: "La novela de Safo. Ningún hombre canta",
-        autorap: "Krislov",
-        autornom: "Alexander",
-        anio_de_publi: "1998",
-        editorial: "Valdemar",
-       }
+    {
+        nombre: "Steelheart",
+        autorapellido: "Sanderson",
+        autornombre: "Brandon",
+        anio_de_publi: "2015",
+        editorial: "Random House",
+    },
+    {
+        nombre: "El señor de las moscas",
+        autorapellido: "Golding",
+        autornombre: "Willian",
+        anio_de_publi: "1954",
+        editorial: "Faber Faber",
+    }
     ],
-    pasatiempos: ["Comer", "Cocinar", "Dormir"] ,
+    pasatiempos: ["Dibujar", "Jugar Videojuegos", "Leer"] ,
     contacto: {
-      redesSociales: "@vellenawethwebdesign",
-      movil: "5579387815",
-      correo: "kary.velle@gmail.com"
+    redesSociales: "@K.ennethh",
+    movil: "5578790507",
+    correo: "alcanamay@gmail.com"
     },
-  
+
     imprimirDatos: function() {
-      console.log(`Nombre: ${this.nombre}`);
-      console.log(`Edad:${this.edad}`);
-      console.log(`Es gei: ${this.esGay}`);
-      console.log(`Pasatiempos: ${this.pasatiempos}`);
-      console.log(`Contacto:`);
-      console.log(`Sociales: ${this.contacto.redesSociales}`);
-      console.log(`celular: ${this.contacto.movil}`);
-      console.log(`Correo: ${this.contacto.correo}`);
-      console.log(`Libros Favoritos: ${this.libros}`);
+    console.log(`Nombre: ${this.nombre}`);
+    console.log(`Edad:${this.edad}`);
+    console.log(`Le gusta Jojos?: ${this.leGustaJojos}`);
+    console.log(`Pasatiempos: ${this.pasatiempos}`);
+    console.log(`Contacto:`);
+    console.log(`Sociales: ${this.contacto.redesSociales}`);
+    console.log(`celular: ${this.contacto.movil}`);
+    console.log(`Correo: ${this.contacto.correo}`);
+    console.log(`Libros Favoritos: ${this.libros}`);
     },
 
     imprimirLibros: function() {
         console.log("Libro 1 :")
         console.log(`Nombre: ${this.libros[0].nombre}`);
-        console.log(`Apellido Autor: ${this.libros[0].autorap}`);
-        console.log(`Nombre Autor: ${this.libros[0].autornom}`);
+        console.log(`Apellido Autor: ${this.libros[0].autorapellido}`);
+        console.log(`Nombre Autor: ${this.libros[0].autornombre}`);
         console.log(`Año de Publicaión: ${this.libros[0].anio_de_publi}`);
         console.log(`Editorial: ${this.libros[0].editorial}`);
 
         console.log("Libro 2 :")
         console.log(`Nombre: ${this.libros[1].nombre}`);
-        console.log(`Apellido Autor: ${this.libros[1].autorap}`);
-        console.log(`Nombre Autor: ${this.libros[1].autornom}`);
+        console.log(`Apellido Autor: ${this.libros[1].autorapellido}`);
+        console.log(`Nombre Autor: ${this.libros[1].autornombre}`);
         console.log(`Año de Publicaión: ${this.libros[1].anio_de_publi}`);
         console.log(`Editorial: ${this.libros[1].editorial}`);
 
         console.log("Libro 3 :")
         console.log(`Nombre: ${this.libros[2].nombre}`);
-        console.log(`Apellido Autor: ${this.libros[2].autorap}`);
-        console.log(`Nombre Autor: ${this.libros[2].autornom}`);
+        console.log(`Apellido Autor: ${this.libros[2].autorapellido}`);
+        console.log(`Nombre Autor: ${this.libros[2].autornombre}`);
         console.log(`Año de Publicaión: ${this.libros[2].anio_de_publi}`);
         console.log(`Editorial: ${this.libros[2].editorial}`);
         
-      }
+    }
 
-  }
-  
-  console.log(objeto);
-  console.log(objeto.nombre);
-  console.log(objeto.pasatiempos[2]);
-  console.log(objeto.contacto.correo);
-  objeto.imprimirDatos();
+}  
+objeto.imprimirDatos();
 objeto.imprimirLibros();

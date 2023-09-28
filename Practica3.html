@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/Kletter.png">
 </head>
-<body style="background-color: #000000;
+<body style="background-color: #101010;
 opacity: 1;
-background-image:  radial-gradient(#c98aff 2px, transparent 2px), radial-gradient(#c98aff 2px, #000000 2px);
+background-image:  radial-gradient(#c88aff8e 2px, transparent 2px), radial-gradient(#c88aff97 2px, #0b0b0b 2px);
 background-size: 80px 80px;
 background-position: 0 0,40px 40px;">
 
@@ -22,11 +22,12 @@ background-position: 0 0,40px 40px;">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div id="Home" class="navbar-nav mx-auto">
-                    <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-link" aria-current="page" href="#Home">Home</a>
                     <a class="nav-link" href="#me">About</a>
                     <a class="nav-link" href="#games">Games</a>
-                    <a class="nav-link" href="#shader" >Shaders</a>
+                    <a class="nav-link" href="#shader" >Shaders/VFX</a>
+                    <a class="nav-link" href="#3d" >3D Models</a>
                     <a class="nav-link" href="#contact" >Contact</a>
                 </div>
             </div>
@@ -34,7 +35,7 @@ background-position: 0 0,40px 40px;">
     </nav>
     <br> 
 <br>
-<div class="container-fluid">
+<div id="Home" class="container-fluid">
     <section class="row">
         <article class="col-12  text-center">
             <img class="img-ken" src="img/Kenneth.jpg" alt="Kenneth">
@@ -46,31 +47,147 @@ background-position: 0 0,40px 40px;">
 <div id="me" class="container-fluid">
     <section class="row">
         <article class="text-center col-12">
-            <h1 class="title" style="color:rgb(194, 194, 194);"> Kenneth Álvarez del Castillo Nava </h1>
-            <h2 style="color: rgb(194, 194, 194);"> About me </h2>
+            <h1 class="title" style="color:rgb(213, 213, 213);"> Kenneth Álvarez del Castillo Nava </h1>
+            <br><br>
+            <h2 style="color: rgb(213, 213, 213);"> About me </h2>
+            <br>
         </article>
     </section>
-    <section class="row">
-        <article class="text-center col-6">
-            <p class="text-center" style="color: rgb(194, 194, 194);">Hola soy kenso contratenme porfavor</p>
+    <section class="justify-content-center row ">
+        <article class=" text-center col-6 " >
+            <p class="text-center" style= "color: rgb(213, 213, 213);">Soy Kenneth o solo Kenny, desde muy joven he tenido facilidad para las matemáticas y la programación, siempre me han gustado mucho los videojuegos y he soñado con poder hacer uno.</p>
+            <p class="text-center" style="color: rgb(213, 213, 213);"> Estoy estudiando Desarrollo de Software Interactivo para Videojuegos en la Universidad Amerike, donde he aprendido a programar en C# y Javascript, a manejar Unity, a modelar en Blender y a crear VFX usando shaders y sistemas de partículas en Unity.</p>
+            <p class="text-center" style="color: rgb(213, 213, 213);">Espero aprender y dominar lo más que pueda sobre el desarrollo de juegos y poder trabajar en estudios que les apasionen los videojuegos tanto como a mi, ya sea como programador en diseño de juegos o VFX. </p>
         </article>
-
     </section>
 </div>
+<br><br><br><br><br>
 
-<br>
 <div id="games" class="container-fluid">
-        <section class="row">
-            <article class=" col-12 ">
-                <div class="card text-bg-dark">
-                    <img src="img/gam.png" class="card-img img-card" alt="codigo">
-                    <div class="card-img-overlay">
-                        <h1 class="card-title" style="font-weight:800;">Games</h1>
+    <section class="row">
+        <article class=" col-12 ">
+            <div class="card text-bg-dark">
+                <img src="img/gam.png" class="card-img img-card" alt="estrella mario">
+                <div class="card-img-overlay">
+                    <h1 class=" card-title" style="font-weight:800; color: rgb(213, 213, 213);">Games</h1>
+                    <h4 class="card-text" style="color: rgb(213, 213, 213);">Juegos en los que he trabajado</h4>
+                </div>
+            </div>
+        </article>
+    </section>
+</div>
+<br><br>
+<div class="container">
+    <section class="row">
+        <article class="col-12 col-md-6">
+            <h2 class="text-color text-center title">Cocomania</h2>
+            <p class="text-color text-center"> Cocomania es un juego para computadora inspirado en Angry Birds, donde debes derribar castillos de arena usando cocos con distintas habilidades.</p>
+            <div id="carouselCoco" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselCoco" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselCoco" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselCoco" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/Cocomania1.png" class="d-block w-100" alt="screenshot de cocomania">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/cocomania2.png" class="d-block w-100" alt="screenshot de cocomania">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="img/cocomania3.png" class="d-block w-100" alt="screenshot de cocomania">
                     </div>
                 </div>
-            </article>
-        </section>
-    </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCoco" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCoco" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <a style="color: aliceblue;" href="https://kvellenaweth.itch.io/cocomania" target="_blank">Pruebalo aqui!</a>
+        </article>
+        <article class="col-12 col-md-6">
+            <h2 class="text-color text-center title"> Bento </h2>
+            <p class="text-color text-center"> Bento es un juego para celular de puzzle relajante donde armas bentos para clientes hambrientos. </p>
+            <div id="carouselBento" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselBento" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselBento" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/bento1.png" class="d-block w-100" alt="screenshot de bento">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/bento2.png" class="d-block w-100" alt="screenshot de bento">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselBento" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselBento" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <a style="color: aliceblue;" href="https://programensostudios.itch.io/bento" target="_blank">Pruebalo aqui!</a>
+        </article>
+    </section>
+</div>
+<br><br><br><br><br>
+<div id="shader" class="container-fluid">
+    <section class="row">
+        <article class=" col-12 ">
+            <div class="card text-bg-dark">
+                <img src="img/gam.png" class="card-img img-card" alt="vfx">
+                <div class="card-img-overlay">
+                    <h1 class=" card-title" style="font-weight:800; color: rgb(213, 213, 213);">Shaders/VFX</h1>
+                    <h4 class="card-text" style="color: rgb(213, 213, 213);">Efectos Visuales que he hecho</h4>
+                </div>
+            </div>
+        </article>
+    </section>
+</div>
+<br><br>
+<div class="container">
+    <section class="row">
+        <article class="col-12">
+            <h2 class="text-color text-center title">Proyecto espadas</h2> <br>
+            <p class="text-color text-center"> Multiples espadas que fueron modeladas por mi, cada una con una temática diferente para su diseño.</p>
+            <video controls preload="auto" class="d-block w-100"  src="video/espadas.mp4"></video>
+            <br>
+        </article>
+        <article class="col-12 col-md-6">
+            <h2 class="text-color text-center title">Diorama Pokemon</h2> 
+            <p class="text-color text-center"> Diorama inspirado en el pokemon Glaceon, todo fue hecho por mi, excepto por el Pokemon.</p>
+            <video controls preload="auto" class="d-block w-100"  src="video/Pokemon.mp4"></video>
+        </article>
+        <article class="col-12 col-md-6">
+            <h2 class="text-color text-center title">Recreación Pokemon Unite</h2> 
+            <p class="text-color text-center"> Recreación del ultimate attack de Espeon en Pokemon Unite, todas las texturas fueron hechas por mi.</p>
+            <video controls preload="auto" class="d-block w-100"  src="video/Ulti.mp4"></video>
+        </article>
+    </section>
+</div>
+<br><br><br><br><br>
+<div id="3d" class="container-fluid">
+    <section class="row">
+        <article class=" col-12 ">
+            <div class="card text-bg-dark">
+                <img src="img/gam.png" class="card-img img-card" alt="vfx">
+                <div class="card-img-overlay">
+                    <h1 class=" card-title" style="font-weight:800; color: rgb(213, 213, 213);">3D Models</h1>
+                    <h4 class="card-text" style="color: rgb(213, 213, 213);">Modelos 3D que he hecho</h4>
+                </div>
+            </div>
+        </article>
+    </section>
+</div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

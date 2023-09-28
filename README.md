@@ -1,5 +1,8 @@
 # DesarrolloWeb2
 Kenny Álvarez del Castillo Nava
+Practica 3:
+HTML:
+https://k-enneth.github.io/DesarrolloWeb2/Practica3.html#Home
 Práctica 4:
 HTML: 
 https://k-enneth.github.io/DesarrolloWeb2/Practica4.html

@@ -14,6 +14,6 @@ https://github.com/K-enneth/DesarrolloWeb2/blob/main/JS/script4.js
 ### HTML: 
 https://k-enneth.github.io/DesarrolloWeb2/Practica8.html
 ### SCRIPT:
-** JS principal: ** https://github.com/K-enneth/DesarrolloWeb2/blob/main/JS/script5.js
-** JS modulos: ** https://github.com/K-enneth/DesarrolloWeb2/tree/main/JS/Modulos
+**JS principal:** https://github.com/K-enneth/DesarrolloWeb2/blob/main/JS/script5.js
+**JS modulos:** https://github.com/K-enneth/DesarrolloWeb2/tree/main/JS/Modulos
 
